@@ -140,6 +140,26 @@ display: flex;
     box-shadow: 10px 5px hsl(220, 2%, 30%)
 }
 
+p3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color:#7d9bdb;
+    border-style: solid;
+    border-image: rgb(146, 158, 170) ;
+    color: whitesmoke;
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    
+        text-align: center;
+        border: solid #7d9bdb;
+        width: 600px;
+        height: 450px;
+        border-radius: 0.75em;
+        box-shadow: 10px 5px hsl(220, 2%, 30%)
+    }
+
 #mylife, #aboutme {color: whitesmoke;
 text-align: center;
 border: solid #7d9bdb;
@@ -391,6 +411,30 @@ display: flex;
     border-radius: 0.75em;
     box-shadow: 10px 5px hsl(220, 2%, 30%)
 }
+
+p3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color:#7d9bdb;
+    border-style: solid;
+    border-image: rgb(146, 158, 170) ;
+    color: whitesmoke;
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    
+        text-align: center;
+        border: solid #7d9bdb;
+        width: 600px;
+        height: 450px;
+        border-radius: 0.75em;
+        box-shadow: 10px 5px hsl(220, 2%, 30%)
+    }
+
+
+
+
 
 #mylife, #aboutme {color: whitesmoke;
 text-align: center;
