@@ -1,29 +1,72 @@
-*{
+body{
 
 background-color: slategray;
-
+margin: 0;
 
 }
 
-h1{
+
+ul {
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+  }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(135, 211, 211);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: rgb(34, 131, 187);
+      }
 
 
+#mprofile, #e2, #mb{
+   color: #7d9bdb;
+    font-family: 'Courier New', Courier, monospace;
+text-decoration: underline;
+font-weight: bold;
+text-shadow: #224eac;
+font-size: 50px;
+padding-top: 10px;
+}
 
+#letme{
+    color: whitesmoke;
+    text-align: center;
+    border: solid #7d9bdb;
+    border-radius: 10px;
+    background-image: linear-gradient(darkgray,darkslategray);
+    width: 500px;
+    height: 30px;
+    
 
 }
 
 p1{
 
-color: lightskyblue ;
-
+color:  lightskyblue;
+font-size: 30px;
 }
 
-nav{
-
-
-    background-color: aquamarine;
-    color: grey;
-}
 
 form{
 height: 25px;
@@ -32,10 +75,10 @@ width: 500px;
 }
 textarea{
 
-height: 200px;
+height: 100px;
 width: 500px;
-background-color: gray;
-color: lightskyblue;
+background-color:darkgray;
+color: #1a449e;
 }
 
 
@@ -46,4 +89,93 @@ color: lightskyblue;
     flex-direction: row;
     justify-content: left;
     margin: solid 10px 10px black;
+}
+
+footer{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    margin-top: auto ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(135, 211, 211);
+    color: white;
+    text-align: center;
+
+
+
+
+
+
+
+}
+
+
+
+
+p2{
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+background-color:#7d9bdb;
+border-style: solid;
+border-image: rgb(146, 158, 170) ;
+color: whitesmoke;
+width: 75%;
+margin-left: 25%;
+display: flex;
+
+    text-align: center;
+    border: solid #7d9bdb;
+    width: 600px;
+    height: 350px;
+    border-radius: 0.75em;
+    box-shadow: 10px 5px hsl(220, 2%, 30%)
+}
+
+#mylife, #aboutme {color: whitesmoke;
+text-align: center;
+border: solid #7d9bdb;
+border-radius: 10px;
+background-image: linear-gradient(darkgray,darkslategray);
+width: 700px;
+height: 30px;
+}
+#aboutme {color: whitesmoke;
+    text-align: center;
+    border: solid #7d9bdb;
+    border-radius: 10px;
+    background-image: linear-gradient(darkgray,darkslategray);
+    width: 400px;
+    height: 30px;}
+
+#sbar{
+    list-style-type: none;
+    color:hsl(220, 2%, 30%);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 15px 15px 15px;
+}
+
+.pat{
+
+height: 300px;
+width: 350px;
+border:solid#7d9bdb ;
+border-radius: 5px;
+}
+
+.pics{
+
+
+    border:solid#7d9bdb ;
+    border-radius: 5px;
+
+}
+.ontop{
+    text-align:end;
 }
